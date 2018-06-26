@@ -33,6 +33,6 @@ public class ClientServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
        // System.out.println("POST!");
         String email = req.getParameter("email");
-        resp.getWriter().print("Chamou pelo metodo POST no email : "+ email);
+        resp.getWriter().print("Chamou pelo metodo POST no email: "+ email);
     }
 }
